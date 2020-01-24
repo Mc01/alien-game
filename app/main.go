@@ -136,11 +136,14 @@ func main() {
 		fmt.Printf("City that are left: %s\n", freeChoices)
 	}
 
-	fmt.Printf("Aliens: %s\n", aliens)
+	fmt.Printf("\n")
+	fmt.Printf("Starting the game with: %d aliens\n", numberOfAliens)
+	fmt.Printf("\n")
 
 	// Make alien travel and fight
 	limit := 10000
 	for i := 0; i < limit; i++ {
+		fmt.Printf("Round: %d\n", i + 1)
 		if len(reflect.ValueOf(cities).MapKeys()) == 0 {
 			panic("There are no cities to destroy left\n")
 		}

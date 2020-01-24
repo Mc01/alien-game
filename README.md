@@ -61,30 +61,47 @@ Map generated!
 Running the game
 ```
 Number of aliens: 4
-Random alien name: Daniel
-Random city: ThousandOaks
-City that are left: [Orange Salem Visalia Antioch Oxnard Bakersfield Downey Aubrey ChulaVista]
-Random alien name: Misty
-Random city: Downey
-City that are left: [Orange Salem Visalia Antioch Oxnard Bakersfield Aubrey ChulaVista]
-Random alien name: Tim
-Random city: ChulaVista
-City that are left: [Orange Salem Visalia Antioch Oxnard Bakersfield Aubrey]
-Random alien name: Freddie
+Random alien name: Luke
+Random city: Salem
+City that are left: [Orange ChulaVista Oxnard Downey ThousandOaks Visalia Antioch Bakersfield Aubrey]
+Random alien name: Nicholas
+Random city: Antioch
+City that are left: [Orange ChulaVista Oxnard Downey ThousandOaks Visalia Bakersfield Aubrey]
+Random alien name: Christine
+Random city: Aubrey
+City that are left: [Orange ChulaVista Oxnard Downey ThousandOaks Visalia Bakersfield]
+Random alien name: Chester
 Random city: Orange
-City that are left: [Salem Visalia Antioch Oxnard Bakersfield Aubrey]
-Aliens: map[Daniel:%!s(*main.Alien=&{Daniel 0xc0000c0400}) Freddie:%!s(*main.Alien=&{Freddie 0xc0000c0380}) Misty:%!s(*main.Alien=&{Misty 0xc0000c0340}) Tim:%!s(*main.Alien=&{Tim 0xc0000c0480})]
-Moving alien Daniel from city ThousandOaks to city Bakersfield
-Alien Daniel was moved to city Bakersfield
-Moving alien Misty from city Downey to city Salem
-Alien Misty was moved to city Salem
-Moving alien Tim from city ChulaVista to city Oxnard
-Alien Tim was moved to city Oxnard
-Moving alien Freddie from city Orange to city Oxnard
-City Oxnard was destroyed by alien Freddie and alien Tim
-Moving alien Daniel from city Bakersfield to city Downey
-Alien Daniel was moved to city Downey
-Moving alien Misty from city Salem to city Downey
-City Downey was destroyed by alien Misty and alien Daniel
+City that are left: [ChulaVista Oxnard Downey ThousandOaks Visalia Bakersfield]
+
+Starting the game with: 4 aliens
+
+Round: 1
+Moving alien Christine from city Aubrey to city Antioch
+City Antioch was destroyed by alien Christine and alien Nicholas
+Moving alien Chester from city Orange to city Oxnard
+Alien Chester was moved to city Oxnard
+Moving alien Luke from city Salem to city Downey
+Alien Luke was moved to city Downey
+Round: 2
+Moving alien Chester from city Oxnard to city ChulaVista
+Alien Chester was moved to city ChulaVista
+Moving alien Luke from city Downey to city Salem
+Alien Luke was moved to city Salem
+Round: 3
+Moving alien Chester from city ChulaVista to city Oxnard
+Alien Chester was moved to city Oxnard
+Moving alien Luke from city Salem to city Downey
+Alien Luke was moved to city Downey
+Round: 4
+Moving alien Luke from city Downey to city Bakersfield
+Alien Luke was moved to city Bakersfield
+Moving alien Chester from city Oxnard to city Orange
+Alien Chester was moved to city Orange
+Round: 5
+Moving alien Chester from city Orange to city Oxnard
+Alien Chester was moved to city Oxnard
+Moving alien Luke from city Bakersfield to city Oxnard
+City Oxnard was destroyed by alien Luke and alien Chester
 All aliens were destroyed
 ```
