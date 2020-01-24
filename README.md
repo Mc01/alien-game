@@ -1,5 +1,8 @@
 # Aliens
 
+Note: To run programs you should have internet connection.
+Domain `https://randomuser.me` is used for random alien and city names.
+
 ## Random map generation
 
 To create new map for game run:
