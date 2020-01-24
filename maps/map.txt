@@ -1,0 +1,10 @@
+Oxnard north=ChulaVista west=Bakersfield east=Orange south=Visalia
+Bakersfield north=Downey east=Oxnard south=ThousandOaks
+Downey east=Salem south=Bakersfield
+Orange west=Oxnard
+Aubrey west=Antioch
+ThousandOaks north=Bakersfield
+Salem west=Downey
+ChulaVista south=Oxnard
+Visalia north=Oxnard south=Antioch
+Antioch north=Visalia east=Aubrey
